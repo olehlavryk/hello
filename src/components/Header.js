@@ -26,7 +26,7 @@ function Header(){
             <div className="mi-header-inner">
                 <div className="mi-header-image">
                     <Link to="/hello/">
-                        <img src={information.brandImage} alt="brandimage"/>
+                        <img src={process.env.PUBLIC_URL + information.brandImage} alt="Oleh Lavryk"/>
                     </Link>
                 </div>
                 
