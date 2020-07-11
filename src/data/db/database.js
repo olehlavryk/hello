@@ -21,9 +21,9 @@ const database = {
       github: 'https://github.com/olehlavryk',
       instagram: 'https://www.instagram.com/o.lavryk/',
     },
-    brandImage: '/images/me.jpg',
-    aboutImage: '/images/me-3.jpg',
-    aboutImageLg: '/images/me-4.jpg',
+    brandImage: '../images/me.jpg',
+    aboutImage: '../images/me-3.jpg',
+    aboutImageLg: '../images/me-4.jpg',
     cvfile: '/files/Oleh_Lavryk_CV.pdf'
   },
   services: [
@@ -116,26 +116,26 @@ const database = {
       id: 1,
       title: "Elmaks",
       subtitle: "Electric cars dealer HTML 5 template.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      imageUrl: "../images/portfolio-image-1.jpg",
+      largeImageUrl: ["../images/portfolio-image-1-lg.jpg"],
       url: 'http://html.superbcode.net/elmaks'
     },
     {
       id: 2,
       title: "Steam & Grill",
       subtitle: "Wordpress theme for food bloggers.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      largeImageUrl: ["/images/portfolio-image-2-lg.jpg"],
+      imageUrl: "../images/portfolio-image-2.jpg",
+      largeImageUrl: ["../images/portfolio-image-2-lg.jpg"],
       url: 'http://wordpress.superbcode.net/steamgrill'
     },
     {
       id: 3,
       title: "Resto Food Service",
       subtitle: "React/Redux single page application.",
-      imageUrl: "/images/portfolio-image-3.jpg",
+      imageUrl: "../images/portfolio-image-3.jpg",
       largeImageUrl: [
-        "/images/portfolio-image-3-lg.jpg",
-        "/images/portfolio-image-3-lg2.jpg"
+        "../images/portfolio-image-3-lg.jpg",
+        "../images/portfolio-image-3-lg2.jpg"
       ],
       url: 'https://github.com/olehlavryk/react-resto-app'
     },
@@ -143,24 +143,24 @@ const database = {
       id: 4,
       title: "Gorgan",
       subtitle: "HTML 5 template about mountains and trekking in the mountains.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: ["/images/portfolio-image-4-lg.jpg"],
+      imageUrl: "../images/portfolio-image-4.jpg",
+      largeImageUrl: ["../images/portfolio-image-4-lg.jpg"],
       url: 'http://html.superbcode.net/gorgan/'
     },
     {
       id: 5,
       title: "National Geographic",
       subtitle: "Old style HTML 5 template of National Geographic.",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"],
+      imageUrl: "../images/portfolio-image-5.jpg",
+      largeImageUrl: ["../images/portfolio-image-5-lg.jpg"],
       url: 'http://html.superbcode.net/national-geographic/'
     },
     {
       id: 6,
       title: "Comming soon",
       subtitle: "Your next job may be here.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      imageUrl: "./images/portfolio-image-6.jpg",
+      largeImageUrl: ["./images/portfolio-image-6-lg.jpg"]
     },
     
   ],
@@ -230,7 +230,7 @@ const database = {
     {
       id: 1,
       title: 'Markdown & Html supported blog.',
-      featuredImage: '/images/blog-image-1.jpg',
+      featuredImage: './images/blog-image-1.jpg',
       filesource: '../../blog/markdown-html-supported-blog.md',
       createDay: "20",
       createMonth: 'February',
@@ -239,7 +239,7 @@ const database = {
     {
       id: 2,
       title: 'Installing NodeJS on your device.',
-      featuredImage: '/images/blog-image-2.jpg',
+      featuredImage: './images/blog-image-2.jpg',
       filesource: '../../blog/installing-nodejs-on-your-device.md',
       createDay: "20",
       createMonth: 'February',
@@ -248,7 +248,7 @@ const database = {
     {
       id: 3,
       title: 'UI/UX design starter with Adobe XD.',
-      featuredImage: '/images/blog-image-3.jpg',
+      featuredImage: './images/blog-image-3.jpg',
       filesource: '../../blog/uiux-design-starter-with-adobe-xd.md',
       createDay: "20",
       createMonth: 'February',
@@ -257,7 +257,7 @@ const database = {
     {
       id: 4,
       title: 'Boost your post for increasing sales.',
-      featuredImage: '/images/blog-image-4.jpg',
+      featuredImage: './images/blog-image-4.jpg',
       filesource: '../../blog/boost-your-post-for-increasing-sales.md',
       createDay: "20",
       createMonth: 'February',
@@ -266,7 +266,7 @@ const database = {
     {
       id: 5,
       title: 'Difference between GatsbyJS & NextJS.',
-      featuredImage: '/images/blog-image-5.jpg',
+      featuredImage: './images/blog-image-5.jpg',
       filesource: '../../blog/difference-between-gatsbyjs-and-nextjs.md',
       createDay: "20",
       createMonth: 'February',
@@ -275,7 +275,7 @@ const database = {
     {
       id: 6,
       title: 'How to choose javascript framework for project.',
-      featuredImage: '/images/blog-image-6.jpg',
+      featuredImage: './images/blog-image-6.jpg',
       filesource: '../../blog/how-to-choose-javascript-framework-for-project.md',
       createDay: "20",
       createMonth: 'February',
@@ -284,7 +284,7 @@ const database = {
     {
       id: 7,
       title: 'Web automation with python language.',
-      featuredImage: '/images/blog-image-7.jpg',
+      featuredImage: './images/blog-image-7.jpg',
       filesource: '../../blog/web-automation-with-python-language.md',
       createDay: "20",
       createMonth: 'February',
@@ -293,7 +293,7 @@ const database = {
     {
       id: 8,
       title: 'Time to use latest technology for creating a website.',
-      featuredImage: '/images/blog-image-8.jpg',
+      featuredImage: './images/blog-image-8.jpg',
       filesource: '../../blog/time-to-use-latest-technology-for-creating-a-website.md',
       createDay: "20",
       createMonth: 'February',
@@ -302,7 +302,7 @@ const database = {
     {
       id: 9,
       title: 'Think out of the box.',
-      featuredImage: '/images/blog-image-9.jpg',
+      featuredImage: './images/blog-image-9.jpg',
       filesource: '../../blog/think-out-of-the-box.md',
       createDay: "20",
       createMonth: 'February',
@@ -311,7 +311,7 @@ const database = {
     {
       id: 10,
       title: 'Trending designs in 2020.',
-      featuredImage: '/images/blog-image-1.jpg',
+      featuredImage: './images/blog-image-1.jpg',
       filesource: '../../blog/trending-designs-in-2020.md',
       createDay: "20",
       createMonth: 'February',
@@ -320,7 +320,7 @@ const database = {
     {
       id: 11,
       title: 'How to get 10k instagram followers?',
-      featuredImage: '/images/blog-image-2.jpg',
+      featuredImage: './images/blog-image-2.jpg',
       filesource: '../../blog/how-to-get-10k-instagram-followers.md',
       createDay: "20",
       createMonth: 'February',
@@ -329,7 +329,7 @@ const database = {
     {
       id: 12,
       title: 'What NodeJS can do?',
-      featuredImage: '/images/blog-image-3.jpg',
+      featuredImage: './images/blog-image-3.jpg',
       filesource: '../../blog/what-nodejs-can-do.md',
       createDay: "20",
       createMonth: 'February',
@@ -338,7 +338,7 @@ const database = {
     {
       id: 13,
       title: 'Futures of javascript.',
-      featuredImage: '/images/blog-image-4.jpg',
+      featuredImage: './images/blog-image-4.jpg',
       filesource: '../../blog/future-of-javascript.md',
       createDay: "20",
       createMonth: 'February',
@@ -347,7 +347,7 @@ const database = {
     {
       id: 14,
       title: 'Popular javascript library in 2020.',
-      featuredImage: '/images/blog-image-5.jpg',
+      featuredImage: './images/blog-image-5.jpg',
       filesource: '../../blog/popular-javascript-library-in-2020.md',
       createDay: "20",
       createMonth: 'February',
@@ -356,7 +356,7 @@ const database = {
     {
       id: 15,
       title: 'Promrammers must read books.',
-      featuredImage: '/images/blog-image-6.jpg',
+      featuredImage: './images/blog-image-6.jpg',
       filesource: '../../blog/programmers-must-read-books.md',
       createDay: "20",
       createMonth: 'February',
