@@ -21,7 +21,7 @@ const database = {
       github: 'https://github.com/olehlavryk',
       instagram: 'https://www.instagram.com/o.lavryk/',
     },
-    brandImage: './images/me.jpg',
+    brandImage: '/images/me.jpg',
     aboutImage: '/images/me-3.jpg',
     aboutImageLg: '/images/me-4.jpg',
     cvfile: '/files/Oleh_Lavryk_CV.pdf'

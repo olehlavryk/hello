@@ -25,18 +25,18 @@ function Header(){
             </button>
             <div className="mi-header-inner">
                 <div className="mi-header-image">
-                    <Link to="/hello">
+                    <Link to="/hello/">
                         <img src={information.brandImage} alt="brandimage"/>
                     </Link>
                 </div>
                 
                 <ul className="mi-header-menu">
-                    <li><NavLink exact to="/hello"><span>Home</span></NavLink></li>
-                    <li><NavLink to="/about"><span>About</span></NavLink></li>
-                    <li><NavLink to="/resume"><span>Resume</span></NavLink></li>
-                    <li><NavLink to="/portfolios"><span>Portfolios</span></NavLink></li>
+                    <li><NavLink exact to="/hello/"><span>Home</span></NavLink></li>
+                    <li><NavLink to="/about/"><span>About</span></NavLink></li>
+                    <li><NavLink to="/resume/"><span>Resume</span></NavLink></li>
+                    <li><NavLink to="/portfolios/"><span>Portfolios</span></NavLink></li>
                     {/*<li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>*/}
-                    <li><NavLink to="/contact"><span>Contact</span></NavLink></li>
+                    <li><NavLink to="/contact/"><span>Contact</span></NavLink></li>
                 </ul>
                 <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" href="https://themeforest.net/user/superbcode">SuperbCode</a></b></p>
             </div>
