@@ -5,7 +5,7 @@ import FsLightbox from "fslightbox-react";
 function Portfolio(props) {
   const [toggler, setToggler] = useState(false);
   const {title, subtitle, imageUrl, largeImageUrl, url} = props.content;
-    
+
   const handleToggler = (value) => {
     setToggler(value);
   }

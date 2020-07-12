@@ -8,19 +8,20 @@ import Portfolios from "./pages/Portfolios";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
 import BlogDetails from "./pages/BlogDetails";
+const publicPath = process.env.PUBLIC_URL;
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/about" component={About} />
-        <Route path="/resume" component={Resumes} />
-        <Route path="/portfolios" component={Portfolios} />
-        <Route path="/blogs" exact component={Blogs} />
-        <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
-        <Route path="/contact" component={Contact} />
+        <Route path={`${publicPath}/about`} component={About} />
+        <Route path={`${publicPath}/resume`} component={Resumes} />
+        <Route path={`${publicPath}/portfolios`} component={Portfolios} />
+        <Route path={`${publicPath}/blogs`} exact component={Blogs} />
+        <Route path={`${publicPath}/blogs/blog-details/:id/:title`} component={BlogDetails} />
+        <Route path={`${publicPath}/contact`} component={Contact} />
         {/* have to be last */}
-        <Route path="/" component={Home} />
+        <Route path={publicPath} component={Home} />
       </Switch>
     </BrowserRouter>
   );
