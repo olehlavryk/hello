@@ -1,4 +1,5 @@
 import Mock from "../mock";
+const publicPath = process.env.PUBLIC_URL;
 
 const database = {
   information: {
@@ -117,7 +118,7 @@ const database = {
       title: "Elmaks",
       subtitle: "Electric cars dealer HTML 5 template.",
       imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      largeImageUrl: [publicPath + "/images/portfolio-image-1-lg.jpg"],
       url: 'http://html.superbcode.net/elmaks'
     },
     {

@@ -76,7 +76,7 @@ function About(){
                 </span>
                 <FsLightbox
                   toggler={toggler}
-                  sources={[information.aboutImageLg]}
+                  sources={[publicPath + information.aboutImageLg]}
                 />
               </div>
             </div>
