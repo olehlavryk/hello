@@ -13,6 +13,7 @@ function About(){
   const [information, setInformation] = useState("");
   const [services, setServices] = useState([]);
   const [reviews, setReviews] = useState([]);
+  const publicPath = process.env.PUBLIC_URL;
 
   const sliderSettings = {
     dots: false,
@@ -66,7 +67,7 @@ function About(){
             <div className="col-lg-6">
               <div className="mi-about-image">
                 <img
-                  src={information.aboutImage}
+                  src={publicPath + information.aboutImage}
                   alt="about"
                   onClick={() => handleToggler(!toggler)}
                 />

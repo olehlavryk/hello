@@ -5,6 +5,7 @@ import FsLightbox from "fslightbox-react";
 function Portfolio(props) {
   const [toggler, setToggler] = useState(false);
   const {title, subtitle, imageUrl, largeImageUrl, url} = props.content;
+  const publicPath = process.env.PUBLIC_URL;
   
   const handleToggler = (value) => {
     setToggler(value);
@@ -13,7 +14,7 @@ function Portfolio(props) {
   return (
     <div className={props.isVisible ? "mi-portfolio mi-portfolio-visible" : "mi-portfolio"}>
       <div className="mi-portfolio-image">
-        <img src={imageUrl} alt={title} />
+        <img src={publicPath + imageUrl} alt={title} />
         <ul>
           {!largeImageUrl ? null : <li>
             <button onClick={() => handleToggler(!toggler)}>

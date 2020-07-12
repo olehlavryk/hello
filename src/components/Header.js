@@ -6,6 +6,7 @@ import LineIcon from 'react-lineicons';
 function Header(){
     const [information, setInformation] = useState("");
     const [navigationToggler, setNavigationToggler] = useState(false);
+    const publicPath = process.env.PUBLIC_URL;
 
     const handleNavigationToggler = () =>{
         setNavigationToggler(!navigationToggler);
@@ -26,17 +27,17 @@ function Header(){
             <div className="mi-header-inner">
                 <div className="mi-header-image">
                     <Link to="/hello/">
-                        <img src={process.env.PUBLIC_URL + information.brandImage} alt="Oleh Lavryk"/>
+                        <img src={publicPath + information.brandImage} alt="Oleh Lavryk"/>
                     </Link>
                 </div>
                 
                 <ul className="mi-header-menu">
-                    <li><NavLink exact to={process.env.PUBLIC_URL}><span>Home</span></NavLink></li>
-                    <li><NavLink to="/about/"><span>About</span></NavLink></li>
-                    <li><NavLink to="/resume/"><span>Resume</span></NavLink></li>
-                    <li><NavLink to="/portfolios/"><span>Portfolios</span></NavLink></li>
+                    <li><NavLink exact to={publicPath}><span>Home</span></NavLink></li>
+                    <li><NavLink to={`${publicPath}/about`}><span>About</span></NavLink></li>
+                    <li><NavLink to={`${publicPath}/resume`}><span>Resume</span></NavLink></li>
+                    <li><NavLink to={`${publicPath}/portfolios`}><span>Portfolios</span></NavLink></li>
                     {/*<li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>*/}
-                    <li><NavLink to="/contact/"><span>Contact</span></NavLink></li>
+                    <li><NavLink to={`${publicPath}/contact`}><span>Contact</span></NavLink></li>
                 </ul>
                 <p className="mi-header-copyright">&copy; {new Date().getFullYear()} <b><a rel="noopener noreferrer" target="_blank" href="https://themeforest.net/user/superbcode">SuperbCode</a></b></p>
             </div>
