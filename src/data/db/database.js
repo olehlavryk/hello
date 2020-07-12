@@ -117,7 +117,7 @@ const database = {
       id: 1,
       title: "Elmaks",
       subtitle: "Electric cars dealer HTML 5 template.",
-      imageUrl: "/images/portfolio-image-1.jpg",
+      imageUrl: publicPath + "/images/portfolio-image-1.jpg",
       largeImageUrl: [publicPath + "/images/portfolio-image-1-lg.jpg"],
       url: 'http://html.superbcode.net/elmaks'
     },
@@ -125,18 +125,18 @@ const database = {
       id: 2,
       title: "Steam & Grill",
       subtitle: "Wordpress theme for food bloggers.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      largeImageUrl: ["/images/portfolio-image-2-lg.jpg"],
+      imageUrl: publicPath + "/images/portfolio-image-2.jpg",
+      largeImageUrl: [publicPath + "/images/portfolio-image-2-lg.jpg"],
       url: 'http://wordpress.superbcode.net/steamgrill'
     },
     {
       id: 3,
       title: "Resto Food Service",
       subtitle: "React/Redux single page application.",
-      imageUrl: "/images/portfolio-image-3.jpg",
+      imageUrl: publicPath + "/images/portfolio-image-3.jpg",
       largeImageUrl: [
-        "/images/portfolio-image-3-lg.jpg",
-        "/images/portfolio-image-3-lg2.jpg"
+        publicPath + "/images/portfolio-image-3-lg.jpg",
+        publicPath + "/images/portfolio-image-3-lg2.jpg"
       ],
       url: 'https://github.com/olehlavryk/react-resto-app'
     },
@@ -144,24 +144,24 @@ const database = {
       id: 4,
       title: "Gorgan",
       subtitle: "HTML 5 template about mountains and trekking in the mountains.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: ["/images/portfolio-image-4-lg.jpg"],
+      imageUrl: publicPath + "/images/portfolio-image-4.jpg",
+      largeImageUrl: [publicPath + "/images/portfolio-image-4-lg.jpg"],
       url: 'http://html.superbcode.net/gorgan/'
     },
     {
       id: 5,
       title: "National Geographic",
       subtitle: "Old style HTML 5 template of National Geographic.",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"],
+      imageUrl: publicPath + "/images/portfolio-image-5.jpg",
+      largeImageUrl: [publicPath + "/images/portfolio-image-5-lg.jpg"],
       url: 'http://html.superbcode.net/national-geographic/'
     },
     {
       id: 6,
       title: "Comming soon",
       subtitle: "Your next job may be here.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      imageUrl: publicPath + "/images/portfolio-image-6.jpg",
+      largeImageUrl: [publicPath + "/images/portfolio-image-6-lg.jpg"]
     },
 
   ],
